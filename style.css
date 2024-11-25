@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+}
+.container{
+    width: 100%;
+    cursor: move;
+    /* transition: all .5s ease-in-out;    */
+}
+/*A imagem vai ficar com 100% do 
+container ou seja ela não vai vazar 
+pra fora tipo dando scroll*/
+.container img{
+    width: 100%;
+    /*Bloquei a imagem para não selecionar ela*/
+    -webkit-user-drag: none;
+    transition: all .1s ease-in-out;
+}
